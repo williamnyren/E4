@@ -1,8 +1,8 @@
 .PHONY : all
-all : task1
+all : task2
 
-task1 : task1.c
-	gcc -Wall -g -o task1 task1.c -O3 -lm -lgsl -lgslcblas
+task2 : task2.c
+	gcc -Wall -g -o task2 task2.c -lm -lgsl -lgslcblas
 
 clean : 
 	touch *.c
